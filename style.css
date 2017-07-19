@@ -131,7 +131,7 @@
   width: 565px;
   text-align: left;
   font-family:arial, sans-serif;
-  top: -40px;
+  top: -38.5px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
@@ -141,7 +141,7 @@
 
 .searchbar img{
   position: absolute;
-  top: 31%;
+  top: 30.3%;
   left: 67%;
 }
 
