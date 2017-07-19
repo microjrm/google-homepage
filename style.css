@@ -1,0 +1,88 @@
+* {
+  font-family: arial, sans-serif;
+}
+
+body{
+  margin-bottom: 50px;
+}
+
+.logo {
+  padding-top: 200px;
+  padding-left: 40px;
+  height: 175px;
+  display: block;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+#mail, #images, #apps, #signin {
+  display: inline-block;
+  float: right;
+  padding: 2px;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: right;
+  color: #000;
+  opacity: .75;
+}
+
+#signin {
+  background-color: rgb(66, 133, 244);
+  color: white;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  text-decoration-line: none;
+  white-space: nowrap;
+  padding-left: 15px;
+}
+
+#advertising, #business, #about, #privacy, #terms, #settings {
+  display: inline-block;
+  padding: 2px;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: right;
+  color: #000;
+  opacity: .75;
+}
+
+.bottombar1 {
+  float: left;
+  position: fixed;
+  bottom: 0px;
+  left:0px;
+  margin-bottom: 0px;
+}
+
+.bottombar2 {
+  float: right;
+  position: fixed;
+  bottom: 0;
+  right:0;
+  margin-bottom: 0px;
+}
+
+.searchbar {
+  color: rgb(34, 34, 34);
+  display: block;
+  position: relative;
+  padding: 6px 9px 0;
+
+  border-radius: 2px;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: 13px;
+  height: 44px;
+  text-align: center;
+}
+
+.searchbar input{
+  width: 300px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
